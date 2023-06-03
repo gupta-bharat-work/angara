@@ -18,7 +18,7 @@ class TranslateAPIView(APIView):
             target_lang = request.query_params.get('target_lang')
 
             if not source_text or not source_lang or not target_lang:
-                return Response({'error': 'Invalid request/query parameters'}, status=400)
+                return Response({'error': 'Invalid request/query parameters'}, status=status.HTTP_400_BAD_REQUEST)
 
             # Create unique key in cache for each translation
             cache_key = f'{source_text}-{source_lang}-{target_lang}'
