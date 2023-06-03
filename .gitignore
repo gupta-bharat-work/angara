@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+venv/
+*.env
+
+# Django
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+*.class
+
+# Dependency directories
+env/
+env_bak/
+env_vir/
+env_temp/
+dist/
+build/
+lib/
+bin/
