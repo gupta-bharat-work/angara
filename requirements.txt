@@ -1,0 +1,4 @@
+Django==4.2.1
+djangorestframework==3.14.0
+requests==2.31.0
+googletrans==4.0.0-rc1
